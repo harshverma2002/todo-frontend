@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Context, server } from '../main'
 import toast from 'react-hot-toast'
 import { useEffect } from 'react'
-import Todoitem from '../components/todoitem'
+import Todoitem from '../components/Todoitem'
 import { Navigate } from 'react-router-dom'
 
 const Home = () => {
