@@ -33,17 +33,17 @@ const Header = () => {
   return (
     <nav className='header'>
         <div>
-            <h2>Todo ape</h2>
+            <h2>TODO APP</h2>
         </div>
         <article>
-            <Link to="/">Home</Link>
-            <Link to="/profile">profile</Link>
+            <Link className='nav-btn' to="/">Home</Link>
+            <Link className='nav-btn'  to="/profile">Profile</Link>
             {
               isAuthenticated ?(
-                <button disabled={loading} onClick={logoutHandler} className ='logout'>Log out</button>
+                <button disabled={loading} onClick={logoutHandler} className ='logout nav-btn'>Log out</button>
               )
               :(
-                <Link to="/login">Login</Link>
+                <Link className='nav-btn' to="/login">Login</Link>
               )
             }
         </article>

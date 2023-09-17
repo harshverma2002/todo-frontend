@@ -9,6 +9,11 @@ import { useContext, useEffect } from "react"
 import axios from "axios"
 import { Context } from "./main"
 import { server } from "./main"
+import './styles/header.scss'
+import './styles/app.scss'
+import './styles/login.scss'
+import './styles/todo.scss'
+import './styles/home.scss'
 
 function App() {
 

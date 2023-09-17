@@ -1,0 +1,33 @@
+@use 'styles';
+
+.header{
+    color: white;
+    background-color: black;
+    display: flex;
+    padding: 10px;  
+    justify-content: space-between;
+
+    div{
+        font-family:styles.$prim-font;
+    }
+}
+
+article{
+    display: flex;
+    margin: 0px 30px 0px 0px;
+    align-items: center;
+
+    Link{
+        font-family:styles.$prim-font;
+    }
+}
+
+.nav-btn{
+    font-family:styles.$prim-font;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: black;
+    border:0px solid black;
+    font-size: 100%;
+}

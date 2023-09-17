@@ -1,0 +1,45 @@
+@use 'styles';
+
+form{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 25vw 10vh 25vw;
+    align-items: center;
+    max-width: 500px;
+    // position: absolute;
+    // top:50%;
+    // bottom:50%;
+    // left:50%;
+    // right:50%;
+
+    input:first-of-type{
+        margin: 5vh 10% 5vh 10%;
+        width:90%;
+
+    }
+
+    input{
+        margin: 0 10% 5vh 10%;
+        width: 90%;
+        padding: 1%;
+    }
+
+    button{
+        margin: 0 0 2vh 0;
+        width:100px;
+        padding: 1%;
+    }
+
+    :last-child{
+        color:black;
+        text-decoration: none;
+        margin: 2vh 0 2vh 0;
+    }
+
+}
+@media only screen and (min-width:1024px) {
+    form{
+        margin-left: 35vw;
+    }
+}

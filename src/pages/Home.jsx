@@ -105,7 +105,7 @@ const Home = () => {
       <section className="todocontainer">
         {
           tasks.map(i=>(
-            <div key={i._id}>
+            // <div className='todo' key={i._id}>
               <Todoitem
                   id={i._id}
                   key={i._id} 
@@ -115,7 +115,7 @@ const Home = () => {
                   updateHandler={updateHandler}
                   deleteHandler={deleteHandler}
               />
-            </div>
+            /* </div> */
           ))
         }
       </section>

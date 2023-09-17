@@ -1,0 +1,12 @@
+@use 'styles';
+
+.todo{
+    font-family:styles.$prim-font;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 10% 1vh 10%;
+    width:100%;
+    border:1px solid black;
+    padding: 1%;
+}
